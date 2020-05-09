@@ -1,5 +1,5 @@
 # Test-Api
-A sample Web Api project with decoupled architecture
+A sample Web Api project with decoupled architecture which returns Traffic Monitoring data
 
 # Steps to run on your machine
 1. Install .Net Core Cli > 3.1 on your machine
