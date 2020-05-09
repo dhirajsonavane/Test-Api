@@ -8,19 +8,19 @@ A sample Web Api project with decoupled architecture
 #### dotnet tool install --global dotnet-ef
 #### dotnet add package Microsoft.EntityFrameworkCore.Design
 
-2. In your terminal window type below command
+3. In your terminal window type below command
 
 #### git clone https://github.com/dhirajsonavane/Test-Api.git
 
-3. Open Test.Api.sln in visual studio and update database connection strings in 
+4. Open Test.Api.sln in visual studio and update database connection strings in 
   - Test.Api -> Test.Api -> appsettings.Development.json
   - Test.Infrastructure -> appsettings.json
   
-4. Now, in your terminal window, cd into Test.Infrastructure project and type below command to create and seed database.
+5. Now, in your terminal window, cd into Test.Infrastructure project and type below command to create and seed database.
 
 #### dotnet ef database update
 
-5. In your visual studio, run the api using f5 key. It should open https://localhost:5001/swagger/index.html in your browser
-6. Expand Monitoring tab, click Try Out button and enter Api Key. You can find it inside Test.Api -> Test.Api -> appsettings.Development.json
-7. Click on Execute
-8. It should show you returned json data
+6. In your visual studio, run the api using f5 key. It should open https://localhost:5001/swagger/index.html in your browser
+7. Expand Monitoring tab, click Try Out button and enter Api Key. You can find it inside Test.Api -> Test.Api -> appsettings.Development.json
+8. Click on Execute
+9. It should show you returned json data
