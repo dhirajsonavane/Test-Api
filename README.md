@@ -29,7 +29,7 @@ A sample Web Api project with decoupled architecture which returns Traffic Monit
   
 5. Now, in your terminal window, cd into Test.Infrastructure project and type below command to create and seed database.
 
-#### dotnet ef database update
+   dotnet ef database update
 
 6. In your visual studio, run the api using f5 key. It should open https://localhost:5001/swagger/index.html in your browser
 7. Expand Monitoring tab, click Try Out button and enter Api Key. You can find it inside Test.Api -> Test.Api -> appsettings.Development.json
