@@ -6,6 +6,7 @@ A sample Web Api project with decoupled architecture
 2. Install efcore cli tools using below command
 
 #### dotnet tool install --global dotnet-ef
+#### dotnet add package Microsoft.EntityFrameworkCore.Design
 
 2. In your terminal window type below command
 
