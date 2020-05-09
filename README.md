@@ -1,7 +1,17 @@
 # Test-Api
 A sample Web Api project with decoupled architecture which returns Traffic Monitoring data
 
-# Steps to run on your machine
+## Technologies Used
+#### Development
+1. .Net Core 3.1
+2. Entity Framework Core
+3. Autofac
+4. Automapper
+5. nLog
+6. XUnit
+7. Moq
+
+## Steps to run on your machine
 1. Install .Net Core Cli > 3.1 on your machine
 2. Install efcore cli tools using below command
 
