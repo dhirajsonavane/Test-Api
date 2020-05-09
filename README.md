@@ -16,6 +16,7 @@ A sample Web Api project with decoupled architecture which returns Traffic Monit
 2. Install efcore cli tools using below commands
 
    dotnet tool install --global dotnet-ef
+   
    dotnet add package Microsoft.EntityFrameworkCore.Design
 
 3. In your terminal window type below command
