@@ -2,10 +2,12 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
+using Test.Api.CustomAttributes;
 using Test.Core.Services;
 
 namespace Test.Api.Controllers
 {
+    [ValidateRequest]
     public class MonitoringController : BaseController
     {
         private readonly IMonitoringService _service;

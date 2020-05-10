@@ -2,7 +2,7 @@
 
 namespace Test.Api.Controllers
 {
-    public class RejectRequestController : BaseController
+    public class RejectRequestController: BaseController
     {
         /// <summary>
         /// GET api/Venues
